@@ -70,9 +70,9 @@
                                 <form method="POST" action="{{ route('room.video.destroy1', [$video->id]) }}">
                                     {{ csrf_field() }}
                                     {{ method_field('DELETE') }}
-                                    <div class="">
+                                    <div class="mb-2">
                                         <div class=""><h4>{{ $video->name }}</h4></div>
-                                        <div class="btn-group-sm">
+                                        <div class="btn-group btn-group-sm">
                                             <button type="button" onclick="location.href='{{ route('room.video.edit', [$video->id]) }}'" class="btn btn-outline-primary"><i class="fas fa-edit"></i></button>
                                             <button type="button" onclick="confirm()" class="btn btn-outline-danger"><i class="fas fa-trash-alt"></i></button>
                                         </div>
