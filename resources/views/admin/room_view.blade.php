@@ -72,8 +72,8 @@
                                     {{ method_field('DELETE') }}
                                     <div class="">
                                         <div class=""><h4>{{ $video->name }}</h4></div>
-                                        <div class="btn-group btn-group-sm">
-                                            <button type="button" onclick="location.href='{{ route('room.video.edit', [$room->id]) }}'" class="btn btn-outline-primary"><i class="fas fa-edit"></i></button>
+                                        <div class="btn-group-sm">
+                                            <button type="button" onclick="location.href='{{ route('room.video.edit', [$video->id]) }}'" class="btn btn-outline-primary"><i class="fas fa-edit"></i></button>
                                             <button type="button" onclick="confirm()" class="btn btn-outline-danger"><i class="fas fa-trash-alt"></i></button>
                                         </div>
                                     </div>

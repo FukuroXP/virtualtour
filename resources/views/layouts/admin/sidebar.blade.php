@@ -6,7 +6,7 @@
         <li class="{{ (request()->routeIs('admin')) ? 'active-page' : '' }}">
             <a href="/admin"><i data-feather="home"></i>Dashboard</a>
         </li>
-        <li class="{{ (request()->is('/logbook')) ? 'active-page' : '' }}">
+        <li class="{{ (request()->is('log')) ? 'active-page' : '' }}">
             <a href="/log"><i data-feather="book"></i>Log Books</a>
         </li>
         <li class="{{ (request()->routeIs('room.*')) ? 'active-page' : '' }}">

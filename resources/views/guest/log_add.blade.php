@@ -41,6 +41,7 @@
                                 </div>
                             </div>
                             <div class="mt-5 col-sm-12 text-end">
+                                <a href="{{ URL::previous() }}" class="btn btn-warning">Kembali</a>
                                 <button type="submit" class="btn btn-primary">Tambah</button>
                                 <input type="reset" class="btn btn-secondary" value="Bersihkan">
                             </div>
